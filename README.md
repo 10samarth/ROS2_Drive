@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-A basic python driver for VESC-based differential drive system that runs on ROS2-foxy
+A basic python driver for VESC-based differential drive system that runs on ROS2-humble
 
 I made this tiny script for my robotic platform. The existing VESC drivers at the moment either don't support ROS2 or dont implement CAN chaining (pass command through to a CAN device). In my HW config I have 2x VESC devices connected via CAN. One of those acts as a master and connects to the host via serial (USB-serial).
 
